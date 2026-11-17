@@ -1,0 +1,73 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# next.js
+/.next/
+/out/
+
+# production / build
+/build
+/dist
+/.turbo
+
+# coverage
+/coverage
+/.nyc_output
+
+# debug & logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (exclude secrets, keep .env.example)
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+
+# IDEs and editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# AI & tool local settings
+.claude/*.local.json
+.trail/cache/
+.trail/statusline.cjs
+
+# misc
+*.pem
+*.tmp
+*.temp
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
